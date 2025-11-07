@@ -1,0 +1,36 @@
+id: medcom.fhir.dk.notes
+canonical: http://medcomfhir.dk/ig/notes
+name: MedComNotes
+title: DK MedCom Notes
+description: The DK MedCom Notes IG
+status: draft # draft | active | retired | unknown
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2025+
+releaseLabel: draft
+publisher:
+  name: MedCom
+  url: http://www.medcom.dk
+jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
+
+dependencies:
+  hl7.fhir.us.core: 3.4.0
+
+menu:
+  Table of contents: toc.html
+  Home: index.md
+  title: Example Home
+  Profiles: profiles.html
+  Examples: examples.html
+  Artifacts: artifacts.html
+  Downloads: downloads.html
+  Dependencies: dependencies.html
+
+parameters: 
+  apply-version: false
+  default-version: true
+  apply-contact: true
+  apply-jurisdiction: true
+  apply-publisher: true
+  pin-canonicals: pin-multiples
+  excludettl: true 
